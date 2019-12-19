@@ -1,0 +1,77 @@
+@import "_variables.scss";
+
+
+.box {
+    position: relative;
+    width: 100%;
+    height: 33rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.image {
+    width: 33rem;
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: inherit;
+}
+
+.topleft {
+    height: 10rem;
+    width: 10rem;
+    transform: rotate(90deg);
+    border-radius: 0 0 0 4rem;
+    border: .5rem solid $dogcolor;
+}
+
+.topright {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 0 4rem 0 0;
+    border: .5rem solid $dogcolor;
+}
+
+.middle{
+    height: 10rem;
+    width: 10rem;
+    border: .5rem solid $dogcolor;
+}
+.middleone {
+    height: 10rem;
+    width: 10rem;
+    border: .5rem solid $dogcolor;
+}
+
+.middlethree {
+    height: 10rem;
+    width: 10rem;
+    border: .5rem solid $dogcolor;
+}
+
+.paragraph{
+    height: 10rem;
+    width: 10rem;
+    color: $dogcolor;
+    border: .5rem solid $dogcolor;
+}
+
+.bottomleft {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 0 0 0 4rem;
+    border: .5rem solid $dogcolor;
+}
+
+.bottomright {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 0 0 4rem 0;
+    // justify-content: flexend;
+    border: .5rem solid $dogcolor;
+}
+

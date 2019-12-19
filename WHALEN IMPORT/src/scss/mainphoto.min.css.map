@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,AAAC,CACP,KAAK,CAAE,GAAG,CACV,MAAM,CAAE,IAAI,CACf",
+    "sources": [
+        "mainphoto.scss"
+    ],
+    "names": [],
+    "file": "mainphoto.min.css"
+}
