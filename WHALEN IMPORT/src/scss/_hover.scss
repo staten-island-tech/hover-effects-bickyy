@@ -1,0 +1,43 @@
+.topleft {
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+.topleft:hover {
+  transform: scale(.75);
+}
+
+.topright  {
+  transition: transform 1s, filter 2s ease-in-out;
+}
+
+.topright:hover  {
+  filter: blur(.2rem);
+  transform: scale(1);
+}
+
+#title {
+  transform-origin: 0 0;
+  transition: transform .25s, visibility .25s ease-in;
+}
+
+#title:hover  {
+  transform: scale(1.2);
+}
+
+.bottomleft  {
+  transition: transform .5s ease-in-out;
+}
+
+.bottomleft:hover  {
+  transform: scale(2) rotate(25deg);
+}
+
+.bottomright  {
+  transition: transform .5s, filter 1.5s ease-in-out;
+}
+
+.bottomright:hover  {
+  filter: grayscale(100%);
+  transform: scale(1.1);
+}

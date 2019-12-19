@@ -142,6 +142,73 @@ html {
           box-shadow: 1rem 1rem 1rem #3d3535;
 }
 
+.topleft {
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+  margin: 0 auto;
+}
+
+.topleft:hover {
+  -webkit-transform: scale(0.75);
+          transform: scale(0.75);
+}
+
+.topright {
+  -webkit-transition: -webkit-transform 1s, -webkit-filter 2s ease-in-out;
+  transition: -webkit-transform 1s, -webkit-filter 2s ease-in-out;
+  transition: transform 1s, filter 2s ease-in-out;
+  transition: transform 1s, filter 2s ease-in-out, -webkit-transform 1s, -webkit-filter 2s ease-in-out;
+}
+
+.topright:hover {
+  -webkit-filter: blur(0.2rem);
+          filter: blur(0.2rem);
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+#title {
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  -webkit-transition: visibility .25s ease-in, -webkit-transform .25s;
+  transition: visibility .25s ease-in, -webkit-transform .25s;
+  transition: transform .25s, visibility .25s ease-in;
+  transition: transform .25s, visibility .25s ease-in, -webkit-transform .25s;
+}
+
+#title:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.bottomleft {
+  -webkit-transition: -webkit-transform .5s ease-in-out;
+  transition: -webkit-transform .5s ease-in-out;
+  transition: transform .5s ease-in-out;
+  transition: transform .5s ease-in-out, -webkit-transform .5s ease-in-out;
+}
+
+.bottomleft:hover {
+  -webkit-transform: scale(2) rotate(25deg);
+          transform: scale(2) rotate(25deg);
+}
+
+.bottomright {
+  -webkit-transition: -webkit-transform .5s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform .5s, -webkit-filter 1.5s ease-in-out;
+  transition: transform .5s, filter 1.5s ease-in-out;
+  transition: transform .5s, filter 1.5s ease-in-out, -webkit-transform .5s, -webkit-filter 1.5s ease-in-out;
+}
+
+.bottomright:hover {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 body {
   background-color: #b79268;
 }
