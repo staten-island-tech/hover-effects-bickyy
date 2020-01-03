@@ -3,9 +3,7 @@
     top: -2.5rem;
     z-index: 1;
     position: relative;
-    display: block;
-    margin-right: 41rem;
-    margin-left: auto;
+    display: inline-block;
     align-content: center;
     z-index:1;  
     border-radius: 50%;
@@ -13,4 +11,6 @@
     box-shadow: 1rem 1rem 1rem $shadow;
 }
 
-
+.header2 {
+    text-align: center;
+}

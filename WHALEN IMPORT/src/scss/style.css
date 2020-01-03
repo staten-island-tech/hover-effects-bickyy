@@ -130,9 +130,7 @@ html {
   top: -2.5rem;
   z-index: 1;
   position: relative;
-  display: block;
-  margin-right: 41rem;
-  margin-left: auto;
+  display: inline-block;
   -ms-flex-line-pack: center;
       align-content: center;
   z-index: 1;
@@ -140,6 +138,10 @@ html {
   border: 1rem solid #70431b;
   -webkit-box-shadow: 1rem 1rem 1rem #3d3535;
           box-shadow: 1rem 1rem 1rem #3d3535;
+}
+
+.header2 {
+  text-align: center;
 }
 
 .topleft {
