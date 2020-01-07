@@ -29,12 +29,6 @@ html {
   text-transform: uppercase;
 }
 
-#subtitle {
-  font-size: 1.5rem;
-  font-style: italic;
-  margin: 0.5rem;
-}
-
 .box {
   position: relative;
   width: 100%;
