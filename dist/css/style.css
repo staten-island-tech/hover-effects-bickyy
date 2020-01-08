@@ -1,14 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Titan+One");
 html {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Shadows Into Light', cursive;
 }
 
 html {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Shadows Into Light', cursive;
 }
 
 .header1 {
   height: 10rem;
-  padding: 2rem;
+  padding: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19,19 +20,13 @@ html {
 
 .header1-text {
   text-align: center;
-  color: #83540d;
+  color: #030201;
 }
 
 #title {
   font-size: 3rem;
   margin: 0.5rem;
   text-transform: uppercase;
-}
-
-.h2 {
-  font-size: 1.5rem;
-  margin: 0.5rem;
-  font-style: italic;
 }
 
 .box {
@@ -41,9 +36,9 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: centerb;
-      -ms-flex-pack: centerb;
-          justify-content: centerb;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -75,68 +70,142 @@ html {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
   border-radius: 0 0 0 4rem;
-  border: 0.5rem solid #83540d;
+  border: 0.5rem solid #030201;
 }
 
 .topright {
   height: 10rem;
   width: 10rem;
   border-radius: 0 4rem 0 0;
-  border: 0.5rem solid #83540d;
+  border: 0.5rem solid #030201;
 }
 
 .middle {
   height: 10rem;
   width: 10rem;
-  border: 0.5rem solid #83540d;
+  border: 0.5rem solid #030201;
 }
 
 .middleone {
   height: 10rem;
   width: 10rem;
-  border: 0.5rem solid #83540d;
+  border: 0.5rem solid #030201;
 }
 
 .middlethree {
   height: 10rem;
   width: 10rem;
-  border: 0.5rem solid #83540d;
+  border: 0.5rem solid #030201;
 }
 
 .paragraph {
   height: 10rem;
   width: 10rem;
-  color: #83540d;
-  border: 0.5rem solid #83540d;
+  color: #030201;
+  border: 0.5rem solid #030201;
 }
 
 .bottomleft {
   height: 10rem;
   width: 10rem;
   border-radius: 0 0 0 4rem;
-  border: 0.5rem solid #83540d;
+  border: 0.5rem solid #030201;
 }
 
 .bottomright {
   height: 10rem;
   width: 10rem;
   border-radius: 0 0 4rem 0;
-  border: 0.5rem solid #83540d;
+  border: 0.5rem solid #030201;
 }
 
 .mainimage {
   width: 30%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  top: -7rem;
+  top: -2.5rem;
   z-index: 1;
+  position: relative;
+  display: inline-block;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  z-index: 1;
+  border-radius: 50%;
+  border: 1rem solid #70431b;
+  -webkit-box-shadow: 1rem 1rem 1rem #3d3535;
+          box-shadow: 1rem 1rem 1rem #3d3535;
+}
+
+.header2 {
+  text-align: center;
+}
+
+.topleft {
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+  margin: 0 auto;
+}
+
+.topleft:hover {
+  -webkit-transform: scale(0.75);
+          transform: scale(0.75);
+}
+
+.topright {
+  -webkit-transition: -webkit-transform 1s, -webkit-filter 2s ease-in-out;
+  transition: -webkit-transform 1s, -webkit-filter 2s ease-in-out;
+  transition: transform 1s, filter 2s ease-in-out;
+  transition: transform 1s, filter 2s ease-in-out, -webkit-transform 1s, -webkit-filter 2s ease-in-out;
+}
+
+.topright:hover {
+  -webkit-filter: blur(0.2rem);
+          filter: blur(0.2rem);
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+#title {
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  -webkit-transition: visibility .25s ease-in, -webkit-transform .25s;
+  transition: visibility .25s ease-in, -webkit-transform .25s;
+  transition: transform .25s, visibility .25s ease-in;
+  transition: transform .25s, visibility .25s ease-in, -webkit-transform .25s;
+}
+
+#title:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.bottomleft {
+  -webkit-transition: -webkit-transform .5s ease-in-out;
+  transition: -webkit-transform .5s ease-in-out;
+  transition: transform .5s ease-in-out;
+  transition: transform .5s ease-in-out, -webkit-transform .5s ease-in-out;
+}
+
+.bottomleft:hover {
+  -webkit-transform: scale(2) rotate(25deg);
+          transform: scale(2) rotate(25deg);
+}
+
+.bottomright {
+  -webkit-transition: -webkit-transform .5s, -webkit-filter 1.5s ease-in-out;
+  transition: -webkit-transform .5s, -webkit-filter 1.5s ease-in-out;
+  transition: transform .5s, filter 1.5s ease-in-out;
+  transition: transform .5s, filter 1.5s ease-in-out, -webkit-transform .5s, -webkit-filter 1.5s ease-in-out;
+}
+
+.bottomright:hover {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 body {
-  background-color: #fad2e6;
+  background-color: #b79268;
 }
 /*# sourceMappingURL=style.css.map */
